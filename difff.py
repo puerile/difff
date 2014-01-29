@@ -7,8 +7,7 @@ target = open(target)
 
 def compare():
 	diff = ""
-	i = 0
-	j = 0
+	#i = 0
 
 	for copy in target:
 		lineExists = False
@@ -22,7 +21,7 @@ def compare():
 		if lineExists == False:
 			#print "original: ", original
 			diff += copy
-			i+=1
+			#i+=1
 
 	print diff
 	#print "number of lines: ", i
